@@ -1,7 +1,10 @@
-class Main{
+class Main
+{
+		
 	public static void main(String[] args){
-	System.out.println("Olek");
-	System.out.println("Basinski");
+	String nazwisko = "Basinski";	
+	String imie = "Olek"; 	
+	System.out.printf("Witaj %s, %s", imie, nazwisko);	
 	
 	
 	}
